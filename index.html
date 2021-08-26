@@ -36,7 +36,7 @@
 						<li><a href="#five">Certificates</a></li>
 						<li><a href="#six">Blogs</a></li>
 						<li><a href="#seven">Connect With Me</a></li>
-						<li><a href="#eight" onclick="RedirectToResume();">Resume<i class="fas fa-external-link-alt"></i></a></li>
+						<li><a href="#eight" onclick="RedirectToResume();">Resume <i class="fas fa-external-link-alt"></i></a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -139,25 +139,32 @@
 										<article>
 											<a href="https://github.com/AbhigyanSingh97/NewsClassifier_And_Online_news_fetcher" class="image"><img src="./images/newspaper.jpg" alt="" /></a>
 											<div class="inner">
-												<h4><a href="https://github.com/AbhigyanSingh97/NewsClassifier_And_Online_news_fetcher">News Classifier and Online News Fetcher</a></h4>
-												<p>• Created a model that could predict the category in which news article belongs. Deployed it using AWS Fargate by containerizing it with Docker.</br>
-												   • Achieved accuracy score of 0.65 on the test data.
+												<h4><a href="https://github.com/AbhigyanSingh97/NewsClassifier_And_Online_news_fetcher">News Classifier and Online News Fetcher <i class="fas fa-external-link-alt"></i></a></h4>
+												<ul>
+													<p>
+													<li>Created a model that could predict the category in which news article belongs.</li>
+													<li>Deployed it using AWS Fargate by containerizing it with Docker.</li>
+													<li>Achieved accuracy score of 0.65 on the test data.</li>
 													</p>
+												</ul>
 											</div>
 										</article>
 										<article>
 											<a href="https://github.com/AbhigyanSingh97/Loan-defaulters-prediction" class="image"><img src="./images/loan-deafult.jpg" alt="" /></a>
 											<div class="inner">
-												<h4><a href="https://github.com/AbhigyanSingh97/Loan-defaulters-prediction">Loan Defaulters Predictions</a></h4>
-												<p>• Worked on the problem of predicting the number of defaulters of a given loan.</br>
-													• Achieved an f1-Score of 99% for the imbalanced data.
+												<h4><a href="https://github.com/AbhigyanSingh97/Loan-defaulters-prediction">Loan Defaulters Predictions <i class="fas fa-external-link-alt"></i></a></h4>
+												<ul>
+													<p>
+													<li>Worked on the problem of predicting the number of defaulters of a given loan.</li>
+													<li>Achieved an f1-Score of 99% for the imbalanced data.</li>
 													</p>
+												</ul>
 											</div>
 										</article>
 										<article>
 											<a href="https://github.com/AbhigyanSingh97/Auto-Image-Caption-Generator" class="image"><img src="./images/caption.jpg" alt="" /></a>
 											<div class="inner">
-												<h4><a href="https://github.com/AbhigyanSingh97/Auto-Image-Caption-Generator">Automatic Image Caption Generator</a></h4>
+												<h4><a href="https://github.com/AbhigyanSingh97/Auto-Image-Caption-Generator">Automatic Image Caption Generator <i class="fas fa-external-link-alt"></i></a></h4>
 												<p>Image Caption Generator is a Deep Learning based approach,where if a image is fed to the model,it generates a approriate description of the image.</br>
 													</p>
 											</div>
@@ -601,7 +608,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					for(var i=0;i<response.items.length-7;i++){
 						var r = response.items[i]
 						if(response.items[i] != null || response.items[i] != undefined || response.items[i] != ""){
-							var row='<article><a href="#" class="image"><img src="'+r.thumbnail+'" alt="" height=40% width=40% /></a><div class="inner"><h4><a href='+r.link+'>'+r.title+'</a></h4><p>'+$(r.description).text().substring(0, 250)+'</p></div></article>'
+							var row='<article><a href="#" class="image"><img src="'+r.thumbnail+'" alt="" height=40% width=40% /></a><div class="inner"><h4><a href='+r.link+'>'+r.title+'</h4><p>'+$(r.description).text().substring(0, 250)+'</p></a></div></article>'
 							rows += row
 						}
 					}
